@@ -1,0 +1,267 @@
+attack_id,name,killchain
+T1156,.bash_profile and .bashrc,Persistence
+T1134,Access Token Manipulation,"Defense Evasion, Privilege Escalation"
+T1015,Accessibility Features,"Persistence, Privilege Escalation"
+T1531,Account Access Removal,Discovery
+T1087,Account Discovery,"Credential Access, Persistence"
+T1098,Account Manipulation,"Persistence, Privilege Escalation"
+T1182,AppCert DLLs,"Persistence, Privilege Escalation"
+T1103,AppInit DLLs,"Execution, Lateral Movement"
+T1155,AppleScript,Lateral Movement
+T1527,Application Access Token,"Persistence, Privilege Escalation"
+T1017,Application Deployment Software,Discovery
+T1138,Application Shimming,Collection
+T1010,Application Window Discovery,Persistence
+T1123,Audio Capture,Collection
+T1131,Authentication Package,Exfiltration
+T1119,Automated Collection,Credential Access
+T1020,Automated Exfiltration,Defense Evasion
+T1139,Bash History,"Defense Evasion, Persistence"
+T1009,Binary Padding,Persistence
+T1197,BITS Jobs,Discovery
+T1067,Bootkit,Persistence
+T1217,Browser Bookmark Discovery,Credential Access
+T1176,Browser Extensions,"Defense Evasion, Privilege Escalation"
+T1110,Brute Force,Persistence
+T1088,Bypass User Account Control,Defense Evasion
+T1042,Change Default File Association,Collection
+T1146,Clear Command History,"Defense Evasion, Execution"
+T1115,Clipboard Data,Defense Evasion
+T1522,Cloud Instance Metadata API,Execution
+T1538,Cloud Service Dashboard,Command And Control
+T1526,Cloud Service Discovery,Command And Control
+T1191,CMSTP,Defense Evasion
+T1116,Code Signing,"Defense Evasion, Execution"
+T1059,Command-Line Interface,"Defense Evasion, Persistence"
+T1043,Commonly Used Port,"Defense Evasion, Persistence"
+T1092,Communication Through Removable Media,Command And Control
+T1500,Compile After Delivery,"Defense Evasion, Execution"
+T1223,Compiled HTML File,Persistence
+T1109,Component Firmware,Credential Access
+T1175,Component Object Model and Distributed COM,Credential Access
+T1122,Component Object Model Hijacking,Credential Access
+T1090,Connection Proxy,Command And Control
+T1196,Control Panel Items,Command And Control
+T1136,Create Account,Exfiltration
+T1003,Credential Dumping,Impact
+T1503,Credentials from Web Browsers,Command And Control
+T1081,Credentials in Files,Exfiltration
+T1214,Credentials in Registry,Impact
+T1094,Custom Command and Control Protocol,Collection
+T1024,Custom Cryptographic Protocol,Collection
+T1002,Data Compressed,Collection
+T1485,Data Destruction,Collection
+T1132,Data Encoding,Command And Control
+T1022,Data Encrypted,Collection
+T1486,Data Encrypted for Impact,Exfiltration
+T1530,Data from Cloud Storage Object,Defense Evasion
+T1213,Data from Information Repositories,Impact
+T1005,Data from Local System,Defense Evasion
+T1039,Data from Network Shared Drive,Defense Evasion
+T1025,Data from Removable Media,Impact
+T1001,Data Obfuscation,Impact
+T1074,Data Staged,Lateral Movement
+T1030,Data Transfer Size Limits,"Persistence, Privilege Escalation, Defense Evasion"
+T1207,DCShadow,Defense Evasion
+T1491,Defacement,Command And Control
+T1140,Deobfuscate/Decode Files or Information,Command And Control
+T1089,Disabling Security Tools,Discovery
+T1488,Disk Content Wipe,Initial Access
+T1487,Disk Structure Wipe,"Persistence, Privilege Escalation"
+T1038,DLL Search Order Hijacking,Execution
+T1073,DLL Side-Loading,Collection
+T1172,Domain Fronting,Impact
+T1483,Domain Generation Algorithms,Defense Evasion
+T1482,Domain Trust Discovery,Execution
+T1189,Drive-by Compromise,Execution
+T1157,Dylib Hijacking,Exfiltration
+T1173,Dynamic Data Exchange,Exfiltration
+T1514,Elevated Execution with Prompt,Exfiltration
+T1114,Email Collection,Exfiltration
+T1519,Emond,Initial Access
+T1499,Endpoint Denial of Service,Execution
+T1480,Execution Guardrails,Credential Access
+T1106,Execution through API,Defense Evasion
+T1129,Execution through Module Load,Privilege Escalation
+T1048,Exfiltration Over Alternative Protocol,Lateral Movement
+T1041,Exfiltration Over Command and Control Channel,"Persistence, Initial Access"
+T1011,Exfiltration Over Other Network Medium,"Defense Evasion, Privilege Escalation"
+T1052,Exfiltration Over Physical Medium,Command And Control
+T1190,Exploit Public-Facing Application,Discovery
+T1203,Exploitation for Client Execution,Defense Evasion
+T1212,Exploitation for Credential Access,Defense Evasion
+T1211,Exploitation for Defense Evasion,Defense Evasion
+T1068,Exploitation for Privilege Escalation,"Persistence, Privilege Escalation"
+T1210,Exploitation of Remote Services,Impact
+T1133,External Remote Services,Credential Access
+T1181,Extra Window Memory Injection,Defense Evasion
+T1008,Fallback Channels,Execution
+T1083,File and Directory Discovery,Defense Evasion
+T1222,File and Directory Permissions Modification,Initial Access
+T1107,File Deletion,"Defense Evasion, Persistence"
+T1006,File System Logical Offsets,Defense Evasion
+T1044,File System Permissions Weakness,Defense Evasion
+T1495,Firmware Corruption,Defense Evasion
+T1187,Forced Authentication,"Persistence, Privilege Escalation, Credential Access"
+T1144,Gatekeeper Bypass,Persistence
+T1061,Graphical User Interface,"Privilege Escalation, Persistence, Defense Evasion"
+T1484,Group Policy Modification,Defense Evasion
+T1200,Hardware Additions,Defense Evasion
+T1158,Hidden Files and Directories,Defense Evasion
+T1147,Hidden Users,Defense Evasion
+T1143,Hidden Window,Impact
+T1148,HISTCONTROL,"Collection, Credential Access"
+T1179,Hooking,Credential Access
+T1062,Hypervisor,Defense Evasion
+T1183,Image File Execution Options Injection,"Defense Evasion, Execution"
+T1525,Implant Container Image,Credential Access
+T1054,Indicator Blocking,Persistence
+T1066,Indicator Removal from Tools,Credential Access
+T1070,Indicator Removal on Host,Persistence
+T1202,Indirect Command Execution,"Persistence, Privilege Escalation"
+T1490,Inhibit System Recovery,"Defense Evasion, Execution, Persistence"
+T1056,Input Capture,Persistence
+T1141,Input Prompt,Defense Evasion
+T1130,Install Root Certificate,Credential Access
+T1118,InstallUtil,"Persistence, Execution"
+T1534,Internal Spearphishing,Persistence
+T1208,Kerberoasting,"Lateral Movement, Persistence"
+T1215,Kernel Modules and Extensions,"Execution, Persistence"
+T1142,Keychain,Collection
+T1159,Launch Agent,Defense Evasion
+T1160,Launch Daemon,Persistence
+T1152,Launchctl,Defense Evasion
+T1161,LC_LOAD_DYLIB Addition,"Defense Evasion, Execution"
+T1149,LC_MAIN Hijacking,Command And Control
+T1171,LLMNR/NBT-NS Poisoning and Relay,Command And Control
+T1168,Local Job Scheduling,Command And Control
+T1162,Login Item,Command And Control
+T1037,Logon Scripts,Persistence
+T1177,LSASS Driver,Impact
+T1185,Man in the Browser,Discovery
+T1036,Masquerading,Defense Evasion
+T1031,Modify Existing Service,Discovery
+T1112,Modify Registry,"Credential Access, Discovery"
+T1170,Mshta,"Persistence, Privilege Escalation"
+T1188,Multi-hop Proxy,Defense Evasion
+T1104,Multi-Stage Channels,Defense Evasion
+T1026,Multiband Communication,Persistence
+T1079,Multilayer Encryption,Lateral Movement
+T1128,Netsh Helper DLL,Lateral Movement
+T1498,Network Denial of Service,Credential Access
+T1046,Network Service Scanning,Discovery
+T1126,Network Share Connection Removal,"Persistence, Privilege Escalation"
+T1135,Network Share Discovery,Discovery
+T1040,Network Sniffing,Discovery
+T1050,New Service,"Defense Evasion, Persistence, Privilege Escalation"
+T1096,NTFS File Attributes,"Defense Evasion, Persistence, Command And Control"
+T1027,Obfuscated Files or Information,"Persistence, Privilege Escalation"
+T1137,Office Application Startup,Execution
+T1502,Parent PID Spoofing,Credential Access
+T1075,Pass the Hash,Discovery
+T1097,Pass the Ticket,Defense Evasion
+T1174,Password Filter DLL,Defense Evasion
+T1201,Password Policy Discovery,"Defense Evasion, Privilege Escalation"
+T1034,Path Interception,Discovery
+T1120,Peripheral Device Discovery,Persistence
+T1069,Permission Groups Discovery,Persistence
+T1150,Plist Modification,"Defense Evasion, Persistence"
+T1205,Port Knocking,Persistence
+T1013,Port Monitors,"Defense Evasion, Execution"
+T1086,PowerShell,"Defense Evasion, Execution"
+T1504,PowerShell Profile,Command And Control
+T1145,Private Keys,Lateral Movement
+T1057,Process Discovery,"Command And Control, Lateral Movement"
+T1186,Process Doppelgänging,Lateral Movement
+T1093,Process Hollowing,Discovery
+T1055,Process Injection,"Lateral Movement, Initial Access"
+T1012,Query Registry,Impact
+T1163,Rc.common,Defense Evasion
+T1164,Re-opened Applications,"Defense Evasion, Execution"
+T1108,Redundant Access,Impact
+T1060,Registry Run Keys / Startup Folder,"Execution, Persistence, Privilege Escalation"
+T1121,Regsvcs/Regasm,Exfiltration
+T1117,Regsvr32,Collection
+T1219,Remote Access Tools,Persistence
+T1076,Remote Desktop Protocol,"Defense Evasion, Execution"
+T1105,Remote File Copy,Discovery
+T1021,Remote Services,Persistence
+T1018,Remote System Discovery,Credential Access
+T1091,Replication Through Removable Media,Execution
+T1496,Resource Hijacking,"Persistence, Privilege Escalation"
+T1536,Revert Cloud Instance,Impact
+T1014,Rootkit,"Privilege Escalation, Persistence"
+T1085,Rundll32,Lateral Movement
+T1494,Runtime Data Manipulation,Persistence
+T1053,Scheduled Task,Privilege Escalation
+T1029,Scheduled Transfer,"Defense Evasion, Execution"
+T1113,Screen Capture,"Defense Evasion, Execution"
+T1180,Screensaver,"Defense Evasion, Persistence"
+T1064,Scripting,Defense Evasion
+T1063,Security Software Discovery,Execution
+T1101,Security Support Provider,"Defense Evasion, Execution"
+T1167,Securityd Memory,Initial Access
+T1505,Server Software Component,Initial Access
+T1035,Service Execution,Initial Access
+T1058,Service Registry Permissions Weakness,Lateral Movement
+T1489,Service Stop,Command And Control
+T1166,Setuid and Setgid,Command And Control
+T1051,Shared Webroot,Command And Control
+T1023,Shortcut Modification,"Persistence, Privilege Escalation"
+T1178,SID-History Injection,Impact
+T1218,Signed Binary Proxy Execution,Privilege Escalation
+T1216,Signed Script Proxy Execution,Privilege Escalation
+T1198,SIP and Trust Provider Hijacking,Initial Access
+T1518,Software Discovery,Persistence
+T1045,Software Packing,Discovery
+T1153,Source,Discovery
+T1151,Space after Filename,Discovery
+T1193,Spearphishing Attachment,Discovery
+T1192,Spearphishing Link,Discovery
+T1194,Spearphishing via Service,Discovery
+T1184,SSH Hijacking,Persistence
+T1071,Standard Application Layer Protocol,Lateral Movement
+T1032,Standard Cryptographic Protocol,Defense Evasion
+T1095,Standard Non-Application Layer Protocol,"Execution, Lateral Movement"
+T1165,Startup Items,Persistence
+T1528,Steal Application Access Token,Defense Evasion
+T1539,Steal Web Session Cookie,Impact
+T1492,Stored Data Manipulation,"Execution, Persistence"
+T1169,Sudo,"Defense Evasion, Execution"
+T1206,Sudo Caching,Initial Access
+T1195,Supply Chain Compromise,Credential Access
+T1019,System Firmware,Command And Control
+T1082,System Information Discovery,Execution
+T1016,System Network Configuration Discovery,"Defense Evasion, Persistence, Privilege Escalation, Initial Access"
+T1049,System Network Connections Discovery,Collection
+T1033,System Owner/User Discovery,"Defense Evasion, Discovery"
+T1007,System Service Discovery,"Command And Control, Defense Evasion"
+T1529,System Shutdown/Reboot,"Persistence, Privilege Escalation"
+T1124,System Time Discovery,Lateral Movement
+T1501,Systemd Service,Execution
+T1080,Taint Shared Content,Persistence
+T1221,Template Injection,"Execution, Lateral Movement"
+T1072,Third-party Software,Persistence
+T1209,Time Providers,"Defense Evasion, Execution"
+T1099,Timestomp,
+T1537,Transfer Data to Cloud Account,
+T1493,Transmitted Data Manipulation,
+T1154,Trap,
+T1127,Trusted Developer Utilities,
+T1199,Trusted Relationship,
+T1111,Two-Factor Authentication Interception,
+T1065,Uncommonly Used Port,
+T1535,Unused/Unsupported Cloud Regions,
+T1204,User Execution,
+T1078,Valid Accounts,
+T1125,Video Capture,
+T1497,Virtualization/Sandbox Evasion,
+T1102,Web Service,
+T1506,Web Session Cookie,
+T1100,Web Shell,
+T1077,Windows Admin Shares,
+T1047,Windows Management Instrumentation,
+T1084,Windows Management Instrumentation Event Subscription,
+T1028,Windows Remote Management,
+T1004,Winlogon Helper DLL,
+T1220,XSL Script Processing,

@@ -1,0 +1,10 @@
+name: enisa2
+dependencies:
+  - python=3
+  - numpy
+  - pandas
+  - scipy
+  - jupyterlab
+  - plotly::plotly_express
+  - nodejs
+  - seaborn
