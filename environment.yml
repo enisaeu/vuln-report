@@ -1,4 +1,4 @@
-name: enisa2
+name: enisa
 dependencies:
   - python=3
   - numpy
