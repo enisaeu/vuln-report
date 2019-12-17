@@ -1,4 +1,4 @@
-# ENISA-vulnerabilities
+https://github.com/enisaeu/vuln-report# ENISA-vulnerabilities
 
 ## Getting Started
 
@@ -11,7 +11,7 @@ Visit the [Anaconda website](https://www.anaconda.com/distribution/) and downloa
 Clone this repository using terminal.
 
 ```bash
-git clone https://github.com/bu-cert/ENISA-vulnerabilities.git
+git clone https://github.com/enisaeu/vuln-report.git
 ```
 
 Run the following from within the root of the repository
