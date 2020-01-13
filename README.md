@@ -1,4 +1,4 @@
-# ENISA's state of vulnerabilities 2018 report
+# ENISA's state of vulnerabilities 2018/2019 report
 
 ## Getting Started
 
